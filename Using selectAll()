@@ -1,0 +1,17 @@
+<body>
+  <ul>
+    <li>Example</li>
+    <li>Example</li>
+    <li>Example</li>
+    <li>Example</li>
+    <li>Example</li>
+    <li>Example</li>
+    <li>Example</li>
+    <li>Example</li>
+  </ul>
+  <script>
+  // it changes the text of all "li" element to puppy
+  d3.selectAll("li").text("puppy")
+  
+  </script>
+</body>
