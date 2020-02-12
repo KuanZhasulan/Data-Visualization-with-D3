@@ -1,0 +1,10 @@
+<body>
+
+  <script>
+  // select() selects the first element with the same name
+  // append() appends a new element to the selected element
+  // text() adds text to the DOM element
+  d3.select("body").append("h1").text("My name is Zhassulan")
+  
+  </script>
+</body>
