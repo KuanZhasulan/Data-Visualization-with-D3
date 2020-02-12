@@ -1,0 +1,13 @@
+<body>
+  <script>
+    const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
+
+    // adds a new h3 element with the text Freedom for every element in dataset
+    d3.select("body")
+       .selectAll("h2")
+       .data(dataset)
+       .enter()
+       .append("h2")
+       .text("New Title")
+  </script>
+</body>
